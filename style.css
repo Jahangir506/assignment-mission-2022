@@ -1,0 +1,16 @@
+body{
+     font-family: 'Abril Fatface', cursive;
+}
+h1{
+    font-size: 450%;
+    font-weight: 70; 
+}
+.color{
+    color: tomato;
+}
+section{
+    display: block;
+}
+.half-width{
+    width: 50%;
+}
