@@ -88,9 +88,9 @@ h3{
     height: 150%;
     margin-left: 5%;
     margin-right: 5%;
-    padding: 12px;
+    padding-left: 12px;
     box-shadow: 5px 5px 20px gray;
-    font-size: 18px;
+    font-size: 20px;
     background-image: url(illustrators/illustrator-3.png);
     background-size: 60%;
     background-repeat: no-repeat;
@@ -99,6 +99,6 @@ h3{
 
 #linear-gradience{
         border-left: 7px solid;
-        border-image-slice: linear-gradient(tomato, blue));
+        border-image-slice: linear-gradient(blue, cyan);
         border-image-slice: 1;
 }
