@@ -8,21 +8,22 @@ h1{
 .color{
     color: tomato;
 }
-section{
+.flexible-container{
     display: flex;
     margin: 150px;
 }
+.shape-2{
+    display: grid;
+    text-align:  center;
+    font-size: 50px;
+}
 .half-width{
-    width: 50%;
+    width: 40%;
     font-family: 'Times New Roman', Times, serif;
     padding-left: 2%;
 }
 .half-width img{
     width: 80%;
-}
-.font-center{
-        text-align: center;
-        font-size: 50px;
 }
 .link-button{
     text-decoration: none;
@@ -50,4 +51,14 @@ section{
 }
 .center{
     text-align: center;
+}
+.experience-item{
+    width: 60%;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 12px;
+    box-shadow: 5px 5px 20px gray;
+    font-size: 20px;
+    
 }
