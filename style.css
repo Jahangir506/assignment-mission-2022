@@ -18,13 +18,14 @@ h3{
 .shape-2{
     display: grid;
     text-align:  center;
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .half-width{
     width: 40%;
     font-family: 'Times New Roman', Times, serif;
     padding-left: 2%;
+    text-align: top;
 }
 .half-width img{
     width: 80%;
@@ -44,62 +45,72 @@ h3{
     background-image: url(shapes/shape-1.png);
     background-repeat: no-repeat;
     background-position: left;
-    background-size: 150px 150px;
+    background-size: 100px;
 
 }
 .shape-4{
     background-image: url(shapes/shape-1.png);
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 250px;
+    background-size: 28%;
 }
-.center{
-    text-align: center;
+.shape-5{
+    display: grid;
+    font-size: 16px;
+    background-image: url(shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 25%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.font-center-2{
+        text-align: center;
+        font-size: 50px;
 }
 .experience-item-1{
-    width: 60%;
-    height: 150%;
+    width: 50%;
+    height: 100%;
     margin-left: 5%;
     margin-right: 5%;
-    padding-left: 12px;
+    padding: 5px;
     box-shadow: 5px 5px 20px gray;
-    font-size: 18px;
+    font-size: 15px;
      background-image: url(illustrators/illustrator-1.png);
-    background-size: 60%;
+    background-size: 40%;
     background-repeat: no-repeat;
     background-color: rgb(204, 204, 209);
     
 }
 .experience-item-2{
-    width: 60%;
-    height: 150%;
+    width: 50%;
+    height: 100%;
     margin-left: 5%;
     margin-right: 5%;
-    padding-left: 12px;
+    padding: 5px;
     box-shadow: 5px 5px 20px gray;
-    font-size: 20px;
-     background-image: url(illustrators/illustrator-2.png);
-    background-size: 60%;
+    font-size: 15px;
+    background-image: url(illustrators/illustrator-2.png);
+    background-size: 40%;
     background-repeat: no-repeat;
     background-color: rgb(186, 197, 146);
 }   
 .experience-item-3{
-    width: 60%;
-    height: 150%;
+    width: 50%;
+    height: 100%;
     margin-left: 5%;
     margin-right: 5%;
-    padding-left: 12px;
+    padding: 5px;
     box-shadow: 5px 5px 20px gray;
-    font-size: 20px;
+    font-size: 15px;;
     background-image: url(illustrators/illustrator-3.png);
-    background-size: 60%;
+    background-size: 40%;
     background-repeat: no-repeat;
     background-color: rgb(248, 220, 195);
 }
 
 #linear-gradience{
-        border-left: 7px solid;
-        border-image-slice: linear-gradient(blue, cyan);
+        border-left: 4px solid;
+        border-image: linear-gradient(Black, red);
         border-image-slice: 1;
 }
 .foter-all{
