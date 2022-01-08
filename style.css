@@ -102,3 +102,32 @@ h3{
         border-image-slice: linear-gradient(blue, cyan);
         border-image-slice: 1;
 }
+.foter-all{
+    text-align: center;
+    display: block;
+    padding: 70px 0%;
+}
+#footer-center{
+    text-align: center;
+    background-color: #24262b;
+    padding: 10px;
+    margin: 0%;
+
+}
+.red-color{
+    color: rgb(223, 63, 63);
+      font-style: italic;
+}
+#white-1{
+    color: white;
+    font-style: italic;
+}
+#white-2{
+    color: white;
+}
+
+.foter-all{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
